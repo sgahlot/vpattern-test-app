@@ -1,0 +1,21 @@
+  <!DOCTYPE html>
+    <html lang="en">
+      <head>
+        <meta charset="utf-8">
+        <title>Python Microservice</title>
+      </head>
+        <body>
+          <h1>Sample microservice written in Python!</h1>
+          <br/>
+          <h2>
+          Hub Cluster domain is '{{ .Values.global.hubClusterDomain }}' <br>
+          Pod is running on Local Cluster Domain '{{ .Values.global.localClusterDomain }}' <br>
+          </h2>
+          <h3>
+          This microservice is written in Python with no external dependencies.
+          It is also trying to see if we can get the overridden value ['{{ .Values.global.build.testing }}'] - should NOT be "dummy"
+          ALTERNATE:: It is also trying to see if we can get the overridden value ['{{ .Values.mainLevelTesting }}'] - should NOT be "dummy"
+          ClusterPlatform - '{{ .Values.global.clusterPlatform }}'
+          </h3>
+        </body>
+    </html>

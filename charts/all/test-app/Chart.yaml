@@ -1,0 +1,9 @@
+apiVersion: v2
+description: A Helm chart to show a microservice written in Python with no other dependencies
+keywords:
+- pattern
+name: test-app
+version: 0.0.1
+
+type: application
+appVersion: "0.1"

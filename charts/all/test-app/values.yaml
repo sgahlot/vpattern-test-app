@@ -1,0 +1,4 @@
+---
+global:
+  hubClusterDomain: hub.python.microservice.com
+  localCluster: local.python.microservice.com

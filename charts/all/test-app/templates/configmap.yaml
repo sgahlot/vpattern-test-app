@@ -1,0 +1,10 @@
+---
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: test-app-configmap
+  labels:
+    app.kubernetes.io/instance: test-app
+data:
+  "index.html": |-
+    {{- tpl ($.Files.Get "files/config.yaml") . | nindent 4 }}
