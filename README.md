@@ -17,3 +17,6 @@ The goal for this pattern is to:
 * Use a GitOps approach to manage hybrid and multi-cloud deployments across both public and private clouds.
 * Enable cross-cluster governance and application lifecycle management.
 * Securely manage secrets across the deployment.
+
+> [!NOTE]
+> This is a sample note
